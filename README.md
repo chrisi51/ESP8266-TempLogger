@@ -1,6 +1,16 @@
 # ESP8266-TempLogger
 Little software for using an ESP8266 for logging temperature and humidty (and possibly air quality) on your flat/house.
 
+## Setup
+* install apache with php and mysql
+* install mysql
+* import Database/structure.sql to your database
+* upload the content of Webserver to your Webserver
+* modify /config.php to connect to database
+* flash ESP8266/ESP-DHT22-Dummylogger-OTA.ino to your ESP8266
+* insert your ESP8266 with its MAC-Adress to the table sensors
+* watch your log with /sensor.php or /all.php
+
 ## Pinout
 ![alt text](https://raw.githubusercontent.com/chrisi51/ESP8266-TempLogger/master/pinout.jpg "Pinout")
 
