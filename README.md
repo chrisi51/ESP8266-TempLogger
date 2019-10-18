@@ -1,6 +1,16 @@
 # ESP8266-TempLogger
 Little software for using an ESP8266 for logging temperature and humidty (and possibly air quality) on your flat/house.
 
+## What you need:
+* ESP8266 (https://www.amazon.de/gp/product/B0754LZ73Z)
+* DHT22 https://amzn.to/2nWRlo0
+* Buzzer (https://amzn.to/2BnAUUT)
+* MQ135 (https://amzn.to/35Iqhdr)
+* Hole-Driller (https://amzn.to/2OXTavZ)
+* Box (https://amzn.to/2MX6ZYY)
+* Wires & Boards (https://amzn.to/31vKVtM)
+
+
 ## Setup
 * install apache with php and mysql
 * install mysql
